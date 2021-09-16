@@ -26,6 +26,15 @@ class Pegion(Bird):
         print("Run faster")
 
 peggy = Pegion()
-peggy.whoIsThis()
+peggy.whoIsThis() # Run time polymorphism
 peggy.swim()
 peggy.run()
+
+print("================================")
+
+birdy = Pegion()
+birdy.whoIsThis()
+birdy.swim()
+birdy.run()
+
+
